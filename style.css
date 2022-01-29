@@ -1,0 +1,53 @@
+* {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+   
+}
+
+#cabecera {
+    background-color: #55f;
+    height: 120px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+
+#menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color:  #ccc;
+}
+
+#menu img {
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20%;
+    position: relative;
+    flex-direction: row;
+    
+}
+
+#principal {
+    position: relative;
+    width: 100%;
+    background-color: #ccc;
+}
+
+#visor {
+    width: 100%;
+    margin:  0;
+}
+
+#visor img {
+    width: 50%;
+    border-radius: 10%;
+}
